@@ -1,3 +1,4 @@
+import 'package:chat_app/services/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
@@ -45,7 +46,12 @@ class _UsuariosPageState extends State<UsuariosPage> {
         elevation: 1,
         backgroundColor: Colors.white,
         leading: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              //TODO: desconectarnos del socket server
+
+              Navigator.pushReplacementNamed(context, 'login');
+              AuthService.deleteToken();
+            },
             icon: Icon(
               Icons.exit_to_app,
               color: Colors.black87,
