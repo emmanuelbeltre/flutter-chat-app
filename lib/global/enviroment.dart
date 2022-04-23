@@ -18,8 +18,8 @@ import 'dart:io';
 // }
 class Enviroment {
   static String apiUrl =
-      'https://chatt-app-server-02.herokuapp.com//api';
+      'https://chatt-app-server-02.herokuapp.com/api';
 
   static String socketUrl =
-      'https://chatt-app-server-02.herokuapp.com//api';
+      'https://chatt-app-server-02.herokuapp.com/api';
 }
