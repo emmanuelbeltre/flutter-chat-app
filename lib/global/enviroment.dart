@@ -9,10 +9,17 @@ import 'dart:io';
 //       Platform.isAndroid ? 'http://10.0.2.2:3000' : 'http://localhost:3000';
 // }
 
+// class Enviroment {
+//   static String apiUrl =
+//       'https://flutter-socket-server-chat-app.herokuapp.com/api';
+
+//   static String socketUrl =
+//       'https://flutter-socket-server-chat-app.herokuapp.com/api';
+// }
 class Enviroment {
   static String apiUrl =
-      'https://flutter-socket-server-chat-app.herokuapp.com/api';
+      'https://chatt-app-server-02.herokuapp.com//api';
 
   static String socketUrl =
-      'https://flutter-socket-server-chat-app.herokuapp.com/api';
+      'https://chatt-app-server-02.herokuapp.com//api';
 }
